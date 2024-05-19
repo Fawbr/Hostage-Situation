@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39e3d810e932b14181896d02f2c8530, type: 3}
+  m_Name: LettersChoice
+  m_EditorClassIdentifier: 
+  options:
+  - '"What letters?"'
+  - '"Yes! I remember your letters!"'
+  - '"Ah... I read one and threw the rest out..."'
+  optionPathways:
+  - {fileID: 11400000, guid: a49b010ac96917049a2f250be6108b37, type: 2}
+  - {fileID: 11400000, guid: ec21ce68e61f8d54cab3e0e93d588a59, type: 2}
+  - {fileID: 11400000, guid: 05b0a24795d16ce4199d4916b36dfa2e, type: 2}
+  isTimed: 1
+  timerAmount: 8
+  outOfTimeDialogue: {fileID: 11400000, guid: 94a76e18eb7c2ec47acdae69dbeeb8d7, type: 2}
+  enableBlackScreen: 0
+  enableBlackScreenOnTimer: 0
+  blackScreenOptions: 
