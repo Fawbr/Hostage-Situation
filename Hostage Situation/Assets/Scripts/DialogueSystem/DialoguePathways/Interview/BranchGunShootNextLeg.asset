@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchGunShootNextLeg
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Perhaps you're woozy from the pain in your leg, but as the words trickle out
+    of your mouth you can tell already that you've made another mistake.
+  - You close your eyes and brace yourself, and suppress a scream as your good leg
+    gains the same searing pain found in your shot one.
+  - '"How many times will you make the same mistake before you learn?"'
+  - '"Look at you! You''re getting blood all over the stage! Do you have any idea
+    how hard that''s going to be to clean up once we''re done?"'
+  - 'Suppressing a delirious laugh, you can''t help but wonder why someone like Blanc
+    seems so obsessed with trying to keep this theatre clean. '
+  - Biting down on the inside of your cheek, you try to focus on any other pain that
+    might keep you upright.
+  - Your vision fades in and out of stability, and you can hear your own desperate
+    ragged breaths as you fight the urge to pass out.
+  - ... because you know the moment you're unable to keep going, it'll seal your
+    fate.
+  - '"Let''s try with another question. Despite all these setbacks, I''m sure we
+    can get back on track!"'
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 0
+  transitionToInterview: 0
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  updatedBools: 0

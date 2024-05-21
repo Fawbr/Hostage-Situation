@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchGunThreaten
+  m_EditorClassIdentifier: 
+  dialogue:
+  - The Mysteryman Extraordinaire reveals a loaded gun from their pocket and aims
+    it towards your head.
+  - '"That is not the kind of question I want you to ask..."'
+  - '"This is about the Mysteryman Extraordinaire''s grand debut, not about some
+    half cocked attempt at psychological analysis."'
+  - '"I would advise you keep on topic, for your sake."'
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 0
+  transitionToInterview: 1
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  updatedBools: 0

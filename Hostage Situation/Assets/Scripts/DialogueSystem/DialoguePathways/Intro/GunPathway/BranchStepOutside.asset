@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchStepOutside
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '"Yes... yes, I just... need to step outside for a moment."'
+  - '"Stay there, I won''t be a moment."'
+  - Perhaps the masked figure found such a comment amusing, considering you were
+    bound to your chair with rope.
+  - The moment they stepped behind the curtains you started to struggle against your
+    restraints, pushing against the ropes that bound your body with all your strength.
+  - You let out a shaky sigh of relief as the ropes loosen just enough to give you
+    the slightest luxury of movement.
+  - Unfortunately, your relief is short lived as the masked figure returns, and you
+    realise that if you'd like to attempt escape, you'll need to wait for the perfect
+    moment to do so.
+  - '"Alright! Where were we?"'
+  speaker:
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 0
+  transitionToInterview: 1
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  updatedBools: 0

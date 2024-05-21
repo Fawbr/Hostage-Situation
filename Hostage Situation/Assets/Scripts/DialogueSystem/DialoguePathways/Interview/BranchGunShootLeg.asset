@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchGunShootLeg
+  m_EditorClassIdentifier: 
+  dialogue:
+  - As you open your mouth to speak you find yourself crying out in pain, your whole
+    body lurches forward as an iron hot burning sensations embeds itself in your
+    skin.
+  - Your thoughts were rendered null as you became able to focus on nothing but the
+    searing agony in your leg.
+  - Through hazy vision your eyes settle upon a smoking barrel, and the pieces click.
+  - '"We''ll edit that out in post..."'
+  - '"Do I have to make it any clearer to you? I''m not playing games."'
+  - '"Let''s try this again, hm?"'
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 0
+  transitionToInterview: 1
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 1
+  updatedBools: 0

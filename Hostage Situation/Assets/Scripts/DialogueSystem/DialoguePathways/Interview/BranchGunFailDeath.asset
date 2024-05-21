@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchGunFailDeath
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '"... I''ve spent all this time, all this work..."'
+  - '"I''ve been so merciful, I have!"'
+  - '"So patient with your inadequacies! At your attempts to ruin my perfect interview!"'
+  - 'Before you have the time to respond, you feel your whole body go limp as your
+    thoughts and memories begin to split down the middle, a bullet sized hole left
+    in their place. '
+  - 'Perhaps this was your hell. Forced to indulge in the fantasies of a screaming,
+    tantruming psychopath. '
+  - However, such thoughts were left to when you were a thinking, breathing person,
+    instead of a lifeless object.
+  - 
+  - GAME OVER.
+  speaker:
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 1
+  transitionToInterview: 0
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 1
+  enableDeathScreen: 1
+  updatedBools: 0

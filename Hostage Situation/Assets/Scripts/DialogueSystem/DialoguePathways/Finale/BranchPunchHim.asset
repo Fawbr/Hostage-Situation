@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchPunchHim
+  m_EditorClassIdentifier: 
+  dialogue:
+  - In one defiant cry you raise your fist and bring it crashing down on Blanc's
+    skull, halting their ability to raise their gun against you.
+  - Then you hit him again...
+  - ... and again...
+  - ... and again.
+  - Your fists become smeared with red as the purple and whites of Blanc's mask become
+    stained with crimson, his body shudders with each impact, jolting from the sheer
+    force of each punch.
+  - In your rage you don't notice as he finally manages to point the gun and fires.
+  - Everything goes dark, and by the time you come to you're awake in a hospital,
+    being tended to by doctors.  Luckily, your wounds will heal, but it takes you
+    time to build up the courage to face the public after your run-in with Blanc.
+  - Luckily, your wounds will heal, but it takes you time to build up the courage
+    to face the public after your run-in with Blanc.
+  - 'He never did upload the interview. Or if he did it never picked up enough traction
+    for you to notice. '
+  - 'He might have escaped, or he might have been caught, you would never know. But
+    you''re not afraid, you remember the violence you were capable of inflicting
+    upon your captor. '
+  - Perhaps part of you was eager for the opportunity to try again.
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 1
+  transitionToInterview: 0
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 1
+  updatedBools: 0

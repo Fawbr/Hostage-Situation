@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class DialogueHandler : MonoBehaviour
 {
     public ChoiceOption openingChoice;
-    DialoguePath currentDialogue;
-    ChoiceOption currentChoice;
+    public DialoguePath currentDialogue;
+
+    public CameraLook cameraLook;
+    public ChoiceOption currentChoice;
     Speaker currentSpeaker;
 
     [Header("UI Elements")]
@@ -16,15 +18,18 @@ public class DialogueHandler : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public GameObject timerObject;
 
+    public bool startInterview;
+    public DialoguePath finaleStart;
+    public VariableHandler variableHandler;
     public BlackScreenPopup blackScreenScript;
-
     public GameObject blackScreen;
     public TextMeshProUGUI screenText;
 
     Image timerImage;
-
-    bool isChoice = false;
-    bool isTyping = false;
+    bool blackScreenEnabled = false;
+    [SerializeField] bool isChoice = false;
+    public bool isTyping = false;
+    bool finaleStarted = false;
     float timeScale = 1f;
     void Start()
     {
@@ -36,9 +41,18 @@ public class DialogueHandler : MonoBehaviour
 
     void Update()
     {
-        if (currentDialogue != null && !isChoice)
+        if (currentDialogue != null && !isChoice || startInterview)
         {
+            if (currentDialogue.enableDeathScreen && blackScreenEnabled == false)
+            {   
+                blackScreenScript.EnableBlackScreen(blackScreen, screenText, currentDialogue);
+                blackScreenEnabled = true;
+            }
             PlayDialogue(currentDialogue);
+            if (startInterview)
+            {
+                startInterview = false;
+            }
         }
 
         if (isChoice && currentChoice.isTimed)
@@ -57,46 +71,90 @@ public class DialogueHandler : MonoBehaviour
                 timeScale = 1f;
             }
         }
+        if (FindObjectOfType<InteractableObject>() == null && currentDialogue == null && finaleStarted == false)
+        {
+            StartCoroutine(BeginFinale());
+            finaleStarted = true;
+        }
+        if (currentDialogue != null && !currentDialogue.updatedBools)
+        {
+            variableHandler.failures += currentDialogue.increaseFailure;
+            if (currentDialogue.enableGunPath)
+            {
+                variableHandler.gunPathEnabled = true;
+            }
+            if (currentDialogue.shootLeg)
+            {
+                if (variableHandler.noLegsShot)
+                {
+                    variableHandler.leftLegShot = true;
+                }
+                else if (variableHandler.leftLegShot)
+                {
+                    variableHandler.bothLegsShot = true;
+                }
+                else if (variableHandler.bothLegsShot)
+                {
+                    variableHandler.dead = true;
+                }
+            }
+            currentDialogue.updatedBools = true;
+        }
     }
 
-    void PlayDialogue(DialoguePath dialogue)
+    public void PlayDialogue(DialoguePath dialogue)
     {
         if (!isChoice)
         {
-            currentSpeaker = currentDialogue.speaker[currentDialogue.lineIndex];
+            currentSpeaker = dialogue.speaker[dialogue.lineIndex];
             dialogueText.color = currentSpeaker.speakerColor;
             dialogueText.font = currentSpeaker.speakerFont;
             if (Input.GetKeyDown(KeyCode.F))
             {
-                if (dialogueText.text == currentDialogue.dialogue[currentDialogue.lineIndex])
+                if (dialogueText.text == dialogue.dialogue[dialogue.lineIndex])
                 {
                     PlayNextLine();
                 }
                 else
                 {
+                    dialogueText.text = dialogue.dialogue[dialogue.lineIndex];
                     StopAllCoroutines();
-                    dialogueText.text = currentDialogue.dialogue[currentDialogue.lineIndex];
                 }
             }
 
             if (!isTyping)
             {
-                StartCoroutine(Typewriter(currentDialogue));
+                StartCoroutine(Typewriter(dialogue));
             }
         }  
     }
 
-    IEnumerator Typewriter(DialoguePath dialoguePath)
+    public IEnumerator Typewriter(DialoguePath dialoguePath)
     {
         isTyping = true;
-        foreach (char letter in dialoguePath.dialogue[dialoguePath.lineIndex].ToCharArray())
+        if (dialogueText.text != dialoguePath.dialogue[dialoguePath.lineIndex])
         {
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(dialogueSpeed);
-        }   
+            foreach (char letter in dialoguePath.dialogue[dialoguePath.lineIndex].ToCharArray())
+            {
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(dialogueSpeed);
+            }   
+        }
     }
 
-    void PlayNextLine()
+    public IEnumerator BeginFinale()
+    {
+        yield return new WaitForSeconds(3f);
+        currentDialogue = finaleStart;
+        currentDialogue = finaleStart;
+        isTyping = false;
+        cameraLook.ChangeLockState(false);
+        cameraLook.enabled = false;
+        Typewriter(currentDialogue);
+        currentDialogue.lineIndex = 0;
+    }
+
+    public void PlayNextLine()
     {
         if (currentDialogue.lineIndex < currentDialogue.dialogue.Count - 1)
         {
@@ -106,12 +164,24 @@ public class DialogueHandler : MonoBehaviour
         }
         else
         {
-            currentChoice = currentDialogue.choice;
-            PlayChoice(textChoices, currentChoice);
+            if (!currentDialogue.transitionToInterview)
+            {
+                cameraLook.enabled = false;
+                cameraLook.ChangeLockState(false);
+                currentChoice = currentDialogue.choice;
+                PlayChoice(textChoices, currentChoice);
+            }
+            else
+            {
+                cameraLook.enabled = true;
+                cameraLook.ChangeLockState(true);
+                dialogueText.text = string.Empty;
+                currentDialogue = null;
+            }
         }
     }
 
-    void PlayChoice(List<Button> choiceText, ChoiceOption choice)
+    public void PlayChoice(List<Button> choiceText, ChoiceOption choice)
     {   
         isChoice = true;  
         DisplayChoices(choiceText, choice);
@@ -147,6 +217,7 @@ public class DialogueHandler : MonoBehaviour
     {
         DialoguePath newDialogue = currentChoice.GetChoice(choiceNumber);
         currentDialogue = newDialogue;
+        currentDialogue.updatedBools = false;
         isChoice = false;
         isTyping = false;
         currentDialogue.lineIndex = 0;

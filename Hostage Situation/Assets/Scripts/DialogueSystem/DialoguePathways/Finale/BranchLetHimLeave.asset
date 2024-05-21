@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchLetHimLeave
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Anger wells up in your system as you watch the Mysteryman Extraordinaire start
+    to leave. Part of you wants to scream, to fight, to do anything in order to deliver
+    some well earned justice to the psychopath who's held you hostage all this time.
+  - But you can't muster up the courage, the threat of death looms over your head
+    and you find yourself unable to do anything to stop him.
+  - Blanc didn't lie however, the authorities did eventually come to collect you,
+    and after weeks of investigation and interrogation, unfortunately no suspect
+    was found to identify Blanc.
+  - Eventually you were sent a copy of your 'interview', which was hardly different
+    from the experience you endured. Even moments where you were threatened or harmed
+    remained on camera, perhaps in order to cause more virality.
+  - 'It might''ve been your obsessive scrolling, or your relation to the interview
+    itself, but you saw as it exploded online. '
+  - People were horrified, but at the same time they were enraptured by the interview,
+    and people began theorising on the identity of who Blanc truly was.
+  - It took weeks until you were able to muster up the courage to leave your house,
+    and everytime you passed by a stranger, or exchanged words with a cashier, you
+    were left with the wandering question of whether or not they might've been him.
+  - You, too, had become caught up in the mystery of it all. Until one day, as you're
+    walking through the street, you hear a voice from behind you, and a hand on your
+    shoulder.
+  - '"Hello journalist!~ How''s about an encore?"'
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 1
+  transitionToInterview: 0
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 1
+  updatedBools: 1

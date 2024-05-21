@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchKnockGun
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'You were stronger, and infinitely more capable. '
+  - As Blanc attempted to make aim, you quickly knocked his hand away with your spare
+    hand, sending the gun flying away without any effort.
+  - 'Now unarmed, Blanc makes an attempt to swing on you, but his efforts are in
+    vain as he''s unable to fight you off. '
+  - You hiss at him, words buried so deep within your gut that anything you'd ever
+    said in your life felt like a lie.
+  - '"You... so weak, so desperate."'
+  - You choke out a short cackle, raising your fist as you get ready to pummel Blanc
+    into nothing more than a bloody memory.
+  - '"You toyed with me. Threatened me... and look where it got you."'
+  - '"Look where your obsession landed you, Blanc! Underneath my fist!"'
+  - Suddenly an awful thought overwhelms you, and in your rage you find yourself
+    entertaining the idea of murder.
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  choice: {fileID: 11400000, guid: 527896e786f6b4646b6b9d0bd6e65acf, type: 2}
+  resetAtEnd: 0
+  transitionToInterview: 0
+  lineIndex: 8
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 0
+  updatedBools: 1

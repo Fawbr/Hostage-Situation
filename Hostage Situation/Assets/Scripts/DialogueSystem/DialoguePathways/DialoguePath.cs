@@ -10,5 +10,11 @@ public class DialoguePath : ScriptableObject
     public List<Speaker> speaker = new List<Speaker>();
     public ChoiceOption choice;
     public bool resetAtEnd;
+    public bool transitionToInterview;
     public int lineIndex = 0;
+    public int increaseFailure;
+    public bool enableGunPath;
+    public bool shootLeg;
+    public bool enableDeathScreen;
+    public bool updatedBools;
 }

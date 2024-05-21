@@ -4,15 +4,75 @@ using UnityEngine;
 
 public class CameraLook : MonoBehaviour
 {
-    MouseLook mouseLook = new MouseLook();
-    void Start()
+    float x, y;
+    [SerializeField] float sensitivity;
+    [SerializeField] DialogueHandler dialogueHandler;
+    Vector3 rotate;
+    GameObject objectPreviouslyHit;
+    [SerializeField] InteractableObject interactable = null;    
+
+    void OnEnable()
     {
-        mouseLook.Init(transform, transform);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
-        mouseLook.LookRotation(transform, transform);
+        CameraMove();
+        ObjectScan();
+    }
+
+    void CameraMove()
+    {
+        y = Input.GetAxis("Mouse X");
+        x = Input.GetAxis("Mouse Y");
+        rotate = new Vector3(x * sensitivity, y * -sensitivity, 0);
+        transform.eulerAngles = transform.eulerAngles - rotate;
+    }
+
+    void ObjectScan()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
+        {
+            interactable = hit.transform.gameObject.GetComponent<InteractableObject>();
+            if (interactable != null)
+            {
+                interactable.HoverDisplay();
+                objectPreviouslyHit = hit.transform.gameObject;
+                if (Input.GetMouseButtonDown(0))
+                {
+                    ChangeLockState(false);
+                    dialogueHandler.currentDialogue = interactable.interactDialogue;
+                    dialogueHandler.currentDialogue.lineIndex = 0;
+                    interactable.HideDisplay();
+                    dialogueHandler.isTyping = false;
+                    dialogueHandler.PlayDialogue(dialogueHandler.currentDialogue);
+                    Destroy(interactable);
+                    this.enabled = false;
+                }
+            }
+            if (hit.transform.gameObject != objectPreviouslyHit)
+            {
+                InteractableObject[] interactables = FindObjectsOfType<InteractableObject>();
+                foreach (InteractableObject interactable in interactables)
+                {
+                    interactable.HideDisplay();
+                }
+            }
+        }
+    }
+
+    public void ChangeLockState(bool lockState)
+    {
+        if (lockState)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
     }
 }

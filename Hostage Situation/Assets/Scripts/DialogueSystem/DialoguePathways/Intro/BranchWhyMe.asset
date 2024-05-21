@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchWhyMe
+  m_EditorClassIdentifier: 
+  dialogue:
+  - The masked madman attempts to stifle a laugh at your comment, ultimately failing
+    to do so as they erupt into a fit of giggles.
+  - '"Wh.. what are you talking about? This is good for the both of us!"'
+  - '"Someone has to interview yours truly, and you''re the perfect one for it!"'
+  - '"I even made sure to schedule a time, allocate a location, and now here we are!"'
+  - '"It''s all in the letters I sent you!"'
+  - Your mind jumps back as your stomach lurches. A nausea overwhelms you as everything
+    clicks.
+  - Piles of letters, a demand for an interview...
+  - Perhaps you should have read more than just the first before throwing the whole
+    thing aside.
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  choice: {fileID: 11400000, guid: 72cce7fe405084f42984e676b6ff1d70, type: 2}
+  resetAtEnd: 0
+  lineIndex: 0

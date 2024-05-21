@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchSpotlightConfession
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '"I-- you..."'
+  - '"That was not a question I was expecting..."'
+  - '"I will indulge you just this once... but if you toe the line again, you will
+    find yourself regretting it."'
+  - Another pause. Blanc squirms in their seat for a moment, and you can't help but
+    gain a slight sense of satisfaction watching this madman feel even a fraction
+    of the level of stress you've endured thus far.
+  - '"Anonymity is freeing. I can be whoever I want to be, say whatever I want to
+    say, and there''s no worries or anxieities that come with it!"'
+  - '"There''s no greater feeling than being remade from the ground up. Casting aside
+    who you once were, to be born anew as something more fantastic than you ever
+    could be!"'
+  - '"I could be anybody. Every time you pass a person on the street, every time
+    you talk to your local cashier. I could be that person, and you''d never know."'
+  - '"But you''d always suspect."'
+  - Your heart lurches into your stomach for a moment, the sinisterness of Blanc's
+    tone hinting towards some sort of depravity you hadn't yet thought of. If you
+    manage to escape alive... will that really be the end of it?
+  - Sensing the lull in conversation, Blanc awkwardly coughs for a moment before
+    picking up the slack once again.
+  - '"And it makes for an interesting personality! Everybody wants to know, it''s
+    why we love murder mysteries, detective cases, so on and so forth."'
+  - '"Why wouldn''t you want to be the most engaging person you can be?"'
+  speaker:
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  choice: {fileID: 0}
+  resetAtEnd: 0
+  transitionToInterview: 1
+  lineIndex: 0
+  increaseFailure: 1
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 0
+  updatedBools: 1

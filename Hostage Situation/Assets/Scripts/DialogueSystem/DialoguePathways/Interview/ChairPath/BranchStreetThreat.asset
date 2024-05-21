@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchStreetThreat
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '"What? God no. That gets you arrested, you know!"'
+  - ... because kidnapping a journalist and threatening them with a gun certainly
+    doesn't get you into any legal trouble whatsoever.
+  - '"No it was moreso... harmless pranks? People want to know who the man underneath
+    the mask is, that''s human nature.'
+  speaker: []
+  choice: {fileID: 0}
+  resetAtEnd: 0
+  transitionToInterview: 1
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 0
+  updatedBools: 0

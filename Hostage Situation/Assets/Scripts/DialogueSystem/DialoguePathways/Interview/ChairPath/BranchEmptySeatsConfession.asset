@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchEmptySeatsConfession
+  m_EditorClassIdentifier: 
+  dialogue:
+  - The question leaves your mouth, and you watch as the Mysteryman Extraordinaire
+    twitches in response.
+  - There's a lengthy pause, until finally Blanc leans forward in his seat, whispering
+    in a low hiss.
+  - '"That is not the kind of question I want you to ask..."'
+  - '"I will indulge you just this once... but if you toe the line again, you will
+    find yourself regretting it."'
+  - Another pause. Blanc squirms in their seat for a moment, and you can't help but
+    gain a slight sense of satisfaction watching this madman feel even a fraction
+    of the level of stress you've endured thus far,
+  - '"... no, there''s nobody waiting for me at home. Being a masked personality
+    doesn''t exactly make socialising easy."'
+  - You open your mouth to speak, to pry further, but you're quickly cut off as Blanc
+    attempts to recover.
+  - '"Ah but no need! I have adoring fans across the globe, and so I have no need
+    for such needless things as family or friends!"'
+  - '"Celebrities have to sacrifice! You can''t reach the top without being willing
+    to risk it all, after all!"'
+  speaker:
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  choice: {fileID: 11400000, guid: 0058c3554880a4249819fee71bab1275, type: 2}
+  resetAtEnd: 0
+  transitionToInterview: 0
+  lineIndex: 8
+  increaseFailure: 1
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 0
+  updatedBools: 1
