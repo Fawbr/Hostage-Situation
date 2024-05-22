@@ -17,7 +17,7 @@ MonoBehaviour:
   optionPathways:
   - {fileID: 11400000, guid: db7638573adda9d46acb3235f792e5aa, type: 2}
   isTimed: 1
-  timerAmount: 5
+  timerAmount: 7
   outOfTimeDialogue: {fileID: 11400000, guid: db7638573adda9d46acb3235f792e5aa, type: 2}
   enableBlackScreen: 0
   enableBlackScreenOnTimer: 0

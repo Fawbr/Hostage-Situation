@@ -22,7 +22,7 @@ public class PostProcessEffects : MonoBehaviour
             if (postProcessVolume.profile.TryGet(out Vignette vignette))
             {
                 vignette.color.value = red;
-                vignette.intensity.value = Mathf.Sin(0.2f);
+                vignette.intensity.value = Mathf.Sin(0.05f);
             }
         }
         else if (variableHandler.bothLegsShot)
@@ -30,7 +30,7 @@ public class PostProcessEffects : MonoBehaviour
             if (postProcessVolume.profile.TryGet(out Vignette vignette))
             {
                 vignette.color.value = red;
-                vignette.intensity.value = Mathf.Sin(0.4f);
+                vignette.intensity.value = Mathf.Sin(0.2f);
             }
         }
     }

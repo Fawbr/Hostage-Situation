@@ -54,7 +54,7 @@ MonoBehaviour:
   resetAtEnd: 0
   transitionToInterview: 0
   lineIndex: 6
-  increaseFailure: 1
+  increaseFailure: 2
   enableGunPath: 0
   shootLeg: 0
   enableDeathScreen: 0

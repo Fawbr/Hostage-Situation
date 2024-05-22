@@ -19,7 +19,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 57d25a7ed36339a4e81b0be86606dc1f, type: 2}
   - {fileID: 11400000, guid: 717eb413b58520b4c9755f6402ca10e2, type: 2}
   isTimed: 1
-  timerAmount: 5
+  timerAmount: 7
   outOfTimeDialogue: {fileID: 11400000, guid: 5c32c1dc0eb783d4f8bdb702dc8064b4, type: 2}
   enableBlackScreen: 0
   enableBlackScreenOnTimer: 0

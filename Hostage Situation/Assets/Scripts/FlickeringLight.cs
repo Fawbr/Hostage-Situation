@@ -29,13 +29,13 @@ public class FlickeringLight : MonoBehaviour
             spotlight.enabled = !spotlight.enabled;
             timer = Random.Range(minTime, maxTime);
             randomNumber = Random.Range(1, 10);
-            if (spotlight.enabled)
+            if (spotlight.enabled == true)
             {
-                blancClose.SetActive(false);
                 if (randomNumber == blancNumber)
                 {
                     blanc.SetActive(true);
                 }
+                blancClose.SetActive(false);
             }
             if (spotlight.enabled == false)
             {

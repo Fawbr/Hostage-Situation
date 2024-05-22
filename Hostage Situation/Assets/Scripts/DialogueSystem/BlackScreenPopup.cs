@@ -19,6 +19,8 @@ public class BlackScreenPopup : MonoBehaviour
 
     public void DisableBlackScreen(GameObject blackScreen, TextMeshProUGUI blackScreenText)
     {
+        StopAllCoroutines();
+        blackScreenText.text = string.Empty;
         blackScreen.SetActive(false);
         blackScreenText.enabled = false;
     }
