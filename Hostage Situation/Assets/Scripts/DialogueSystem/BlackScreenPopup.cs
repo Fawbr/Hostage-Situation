@@ -17,6 +17,11 @@ public class BlackScreenPopup : MonoBehaviour
         StartCoroutine(ScreenTypewriter(dialoguePath, blackScreenText));
     }
 
+    public void DisableBlackScreen(GameObject blackScreen, TextMeshProUGUI blackScreenText)
+    {
+        blackScreen.SetActive(false);
+        blackScreenText.enabled = false;
+    }
     IEnumerator ScreenTypewriter(DialoguePath dialoguePath, TextMeshProUGUI dialogueText)
     {
         string joinedString = string.Join("<br><br>", dialoguePath.dialogue);

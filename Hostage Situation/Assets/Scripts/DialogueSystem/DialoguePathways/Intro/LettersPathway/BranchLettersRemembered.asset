@@ -19,11 +19,20 @@ MonoBehaviour:
   speaker:
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  poses:
+  - {fileID: 3992054590350099456, guid: 76434450bb5c01b4c80b27120f930ebd, type: 3}
+  - {fileID: 2355930103378332439, guid: c725ea1e05735c344a579bb1fe457417, type: 3}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 0}
+  startFight: 0
+  startInterview: 1
   resetAtEnd: 0
-  transitionToInterview: 1
+  transitionToInterview: 0
   lineIndex: 1
   increaseFailure: 0
   enableGunPath: 0
   shootLeg: 0
-  updatedBools: 0
+  enableDeathScreen: 0
+  updatedBools: 1

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchHateYou
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '"You think you''re interesting just because you hide behind a mask?"'
+  - '"You''re nothing. The moment you publish that interview you''ll see just how
+    little anybody actually cares about the Mysteryman Extraordinaire."'
+  - '"You''re a joke. A gag to be laughed at for a second and discarded."'
+  - '"The moment you overstay your welcome you''ll see just how quick people will
+    turn on you."'
+  - '"If they''re even bothered to notice your existence in the first place."'
+  - As you speak, you begin to struggle against your restraints, and you feel them
+    loosen slightly. Knowing that there's a chance to prevent Blanc's escape you
+    let out a dry chuckle as you continue to spew venom.
+  - Poison drips from your tongue as you assault Blanc with a barrage of verbal toxicity.
+    The Mysteryman Extraordinaire turns on his heels to look back at you, piping
+    up to say something, but before he can manage you continue your onslaught.
+  speaker:
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  choice: {fileID: 11400000, guid: b389b21f7ef29cd46a68715b7547f749, type: 2}
+  startFight: 0
+  startInterview: 0
+  resetAtEnd: 0
+  transitionToInterview: 0
+  lineIndex: 6
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 0
+  updatedBools: 1

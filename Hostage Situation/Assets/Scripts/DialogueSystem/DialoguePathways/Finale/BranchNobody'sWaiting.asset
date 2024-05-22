@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchNobody'sWaiting
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '"When you leave here today, when you return to your home, I''m willing to bet
+    there''s not a single soul out there waiting for you to return."'
+  - '"Nobody to wonder if you''re okay, nobody to be concerned when you''re late."'
+  - '"Please... stop-!!"'
+  - '"No family, no friends. You''ll be sitting in your room alone, in the dark,
+    with nobody coming to save you."'
+  - '"No amount of fame will be able to prevent how truly awful you feel when nobody''s
+    there to look at you."'
+  - '"It''s not true, you''re lying! You''re lying!"'
+  - You manage to break free from your restraints. Finally released from your ropes,
+    Blanc reaches into his pocket for his gun, giving you only a few moments to act.
+  - '"I''ll kill you! I''ll kill you and leave nothing left!"'
+  speaker:
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2145621045987459434, guid: 05f918a3e5395d249bb2b7d48990d566, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  choice: {fileID: 11400000, guid: 4c4792d5b3176c84aa9b8a3469fb1de8, type: 2}
+  startFight: 0
+  startInterview: 0
+  resetAtEnd: 0
+  transitionToInterview: 0
+  lineIndex: 7
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 0
+  updatedBools: 1

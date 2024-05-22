@@ -5,9 +5,12 @@ using UnityEngine;
 public class InteractableObject : MonoBehaviour
 {
     public DialoguePath interactDialogue;
+    public Material hoverMat;
+    public float scale;
     public void HoverDisplay()
     {
         gameObject.layer = 3;
+        hoverMat.SetFloat("_Scale", scale);
         foreach (Transform child in transform)
         {
             child.gameObject.layer = 3;

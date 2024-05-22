@@ -17,7 +17,7 @@ MonoBehaviour:
   - '"Who are you underneath that mask?"'
   optionPathways:
   - {fileID: 11400000, guid: 97e1463cd5e02c048b1f608491a05778, type: 2}
-  - {fileID: 11400000, guid: fae24117302b0f54681b20f3b3fb95a4, type: 2}
+  - {fileID: 11400000, guid: 6ca6e630aef3d064f98d2b16554d34bf, type: 2}
   isTimed: 0
   timerAmount: 0
   outOfTimeDialogue: {fileID: 0}

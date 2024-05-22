@@ -17,7 +17,7 @@ MonoBehaviour:
   - HUMILIATE HIM.
   optionPathways:
   - {fileID: 11400000, guid: db7638573adda9d46acb3235f792e5aa, type: 2}
-  - {fileID: 11400000, guid: db7638573adda9d46acb3235f792e5aa, type: 2}
+  - {fileID: 11400000, guid: 322c823f5b183c948bf4061d737b0f61, type: 2}
   isTimed: 1
   timerAmount: 5
   outOfTimeDialogue: {fileID: 11400000, guid: db7638573adda9d46acb3235f792e5aa, type: 2}

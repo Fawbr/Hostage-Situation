@@ -35,6 +35,8 @@ MonoBehaviour:
     walking through the street, you hear a voice from behind you, and a hand on your
     shoulder.
   - '"Hello journalist!~ How''s about an encore?"'
+  - 
+  - 'ENDING 1/8: THE SHOW MUST GO ON.'
   speaker:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
@@ -45,10 +47,38 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 3309c6f004d0e61408e91a05dfb9d37d, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 0}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 1
   transitionToInterview: 0
-  lineIndex: 0
+  lineIndex: 1
   increaseFailure: 0
   enableGunPath: 0
   shootLeg: 0

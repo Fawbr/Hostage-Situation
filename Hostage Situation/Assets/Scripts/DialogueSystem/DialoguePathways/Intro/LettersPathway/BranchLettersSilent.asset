@@ -60,11 +60,50 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 7805219610544614147, guid: 33b0a39bd41e4904194b71fd8807637d, type: 3}
+  - {fileID: 3707653199070756399, guid: 25f08842fb1efa94fb880e9afd93b434, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2145621045987459434, guid: 05f918a3e5395d249bb2b7d48990d566, type: 3}
+  - {fileID: 0}
+  - {fileID: 2355930103378332439, guid: c725ea1e05735c344a579bb1fe457417, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 0}
+  startFight: 0
+  startInterview: 1
   resetAtEnd: 0
-  transitionToInterview: 1
+  transitionToInterview: 0
   lineIndex: 0
   increaseFailure: 0
   enableGunPath: 0
   shootLeg: 0
+  enableDeathScreen: 0
   updatedBools: 0

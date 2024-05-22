@@ -37,7 +37,29 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
   - {fileID: 11400000, guid: 269c2f2fc36d4064b99b1c091cb08820, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 839701877973864011, guid: a35b5c8d7e604694d8d2462f2f34de02, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 11400000, guid: 527896e786f6b4646b6b9d0bd6e65acf, type: 2}
+  startFight: 1
+  startInterview: 0
   resetAtEnd: 0
   transitionToInterview: 0
   lineIndex: 8

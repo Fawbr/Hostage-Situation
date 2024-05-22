@@ -13,18 +13,26 @@ MonoBehaviour:
   m_Name: BranchQuestionConfession
   m_EditorClassIdentifier: 
   dialogue:
-  - '"I..."'
   - Blanc freezes in place, their whole body turning stiff as they stare at you wordlessly
     for what might've seemed like minutes.
+  - They refuse to answer.
   speaker:
-  - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
-  choice: {fileID: 0}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  choice: {fileID: 11400000, guid: d5a1e53d7e8f02b47bdb56a296b9acfe, type: 2}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 0
   transitionToInterview: 0
-  lineIndex: 0
+  lineIndex: 1
   increaseFailure: 1
   enableGunPath: 0
   shootLeg: 0
   enableDeathScreen: 0
-  updatedBools: 0
+  updatedBools: 1

@@ -24,7 +24,7 @@ MonoBehaviour:
   - However, such thoughts were left to when you were a thinking, breathing person,
     instead of a lifeless object.
   - 
-  - GAME OVER.
+  - 'ENDING 1/8: A LOUSY INTERVIEW'
   speaker:
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
@@ -34,7 +34,27 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 1401398005636547689, guid: be4606ed57568734da46ee7754ed0bb1, type: 3}
+  - {fileID: 0}
+  - {fileID: 8807634396057533237, guid: ecbbbcb2bcbd5b8499e92a63a0c77260, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 39b3abd376c6db94090174df02d23123, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 0}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 1
   transitionToInterview: 0
   lineIndex: 0

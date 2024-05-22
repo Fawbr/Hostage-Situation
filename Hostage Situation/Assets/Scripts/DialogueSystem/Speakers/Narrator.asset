@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Narrator
   speakerColor: {r: 1, g: 1, b: 1, a: 1}
-  speakerFont: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  speakerFont: {fileID: 11400000, guid: eda3ad4c9c5f83240ba8061148b83ba6, type: 2}

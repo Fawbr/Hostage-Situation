@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   options:
   - 
-  - KILL HIM.
   - 
+  - KILL HIM.
   optionPathways:
   - {fileID: 11400000, guid: 00d871b656307a24088e609d27efcdec, type: 2}
   - {fileID: 11400000, guid: 00d871b656307a24088e609d27efcdec, type: 2}

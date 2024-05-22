@@ -20,7 +20,15 @@ MonoBehaviour:
   speaker:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 11400000, guid: 7274aa096201d334eb49be26e382fc6c, type: 2}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 0
   transitionToInterview: 0
   lineIndex: 1

@@ -41,10 +41,32 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1194829687757544973, guid: dcad839dd6f47bc4ab8401a3bef407df, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1401398005636547689, guid: be4606ed57568734da46ee7754ed0bb1, type: 3}
+  - {fileID: 0}
+  - {fileID: 4648570309442707700, guid: ec2e42c258468a4429600cbce2ae1884, type: 3}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 11400000, guid: 0058c3554880a4249819fee71bab1275, type: 2}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 0
   transitionToInterview: 0
-  lineIndex: 8
+  lineIndex: 0
   increaseFailure: 1
   enableGunPath: 0
   shootLeg: 0

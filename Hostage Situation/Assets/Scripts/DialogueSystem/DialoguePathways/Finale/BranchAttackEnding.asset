@@ -23,13 +23,29 @@ MonoBehaviour:
     you''re not afraid, you remember the violence you were capable of inflicting
     upon your captor. '
   - Perhaps part of you was eager for the opportunity to try again.
+  - 
+  - 'ENDING 4/8: ROUND TWO?'
   speaker:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: 39b3abd376c6db94090174df02d23123, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 0}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 1
   transitionToInterview: 0
   lineIndex: 0
@@ -37,4 +53,4 @@ MonoBehaviour:
   enableGunPath: 0
   shootLeg: 0
   enableDeathScreen: 1
-  updatedBools: 0
+  updatedBools: 1

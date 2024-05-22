@@ -22,12 +22,32 @@ MonoBehaviour:
     also having enough evidence to put Blanc away for a long time.
   - Allowing you to live without fear of the Masked Madman returning to repeat the
     events of that day once again.
+  - 
+  - 'ENDING 8/8: NO ENCORE.'
   speaker:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 0}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 1
   transitionToInterview: 0
   lineIndex: 0
@@ -35,4 +55,4 @@ MonoBehaviour:
   enableGunPath: 0
   shootLeg: 0
   enableDeathScreen: 1
-  updatedBools: 0
+  updatedBools: 1

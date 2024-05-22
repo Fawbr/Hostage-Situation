@@ -7,6 +7,7 @@ public class CameraLook : MonoBehaviour
     float x, y;
     [SerializeField] float sensitivity;
     [SerializeField] DialogueHandler dialogueHandler;
+    [SerializeField] GameObject focusPoint;
     Vector3 rotate;
     GameObject objectPreviouslyHit;
     [SerializeField] InteractableObject interactable = null;    
@@ -50,6 +51,8 @@ public class CameraLook : MonoBehaviour
                     dialogueHandler.isTyping = false;
                     dialogueHandler.PlayDialogue(dialogueHandler.currentDialogue);
                     Destroy(interactable);
+                    Vector3 prevTransform = transform.position;
+                    transform.LookAt(Vector3.Lerp(prevTransform, focusPoint.transform.position, 60));
                     this.enabled = false;
                 }
             }

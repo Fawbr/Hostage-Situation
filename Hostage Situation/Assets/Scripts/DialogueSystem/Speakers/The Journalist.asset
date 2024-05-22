@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: The Journalist
   m_EditorClassIdentifier: 
   speakerName: Journalist
-  speakerColor: {r: 0.3962264, g: 0.03299761, b: 0, a: 1}
-  speakerFont: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  speakerColor: {r: 0.6226415, g: 0.049318142, b: 0, a: 1}
+  speakerFont: {fileID: 11400000, guid: eda3ad4c9c5f83240ba8061148b83ba6, type: 2}

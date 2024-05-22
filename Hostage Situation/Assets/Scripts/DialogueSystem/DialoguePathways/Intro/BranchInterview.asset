@@ -16,7 +16,7 @@ MonoBehaviour:
   - The figure's head jerks slightly to the left as they peer at you.
   - It's almost impossible to tell the expression hidden underneath, and they murmur
     something under their breath as they slowly begin to approach you, now curious.
-  - '"Did you not <color=red>receive my letters?"'
+  - '"Did you not receive my letters?"'
   - Your mind jumps back as your stomach lurches. A nausea overwhelms you as everything
     finally clicks.
   - Piles of latters, a demand for an interview...
@@ -29,6 +29,28 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
   - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 3707653199070756399, guid: 25f08842fb1efa94fb880e9afd93b434, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 11400000, guid: 72cce7fe405084f42984e676b6ff1d70, type: 2}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 0
+  transitionToInterview: 0
   lineIndex: 5
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 0
+  updatedBools: 1

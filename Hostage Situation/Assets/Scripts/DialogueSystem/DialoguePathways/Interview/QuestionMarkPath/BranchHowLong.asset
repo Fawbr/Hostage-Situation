@@ -29,12 +29,28 @@ MonoBehaviour:
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  poses:
+  - {fileID: 1194829687757544973, guid: dcad839dd6f47bc4ab8401a3bef407df, type: 3}
+  - {fileID: 0}
+  - {fileID: 1401398005636547689, guid: be4606ed57568734da46ee7754ed0bb1, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 4648570309442707700, guid: ec2e42c258468a4429600cbce2ae1884, type: 3}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 0}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 0
   transitionToInterview: 1
-  lineIndex: 0
+  lineIndex: 5
   increaseFailure: 0
   enableGunPath: 0
   shootLeg: 0
   enableDeathScreen: 0
-  updatedBools: 0
+  updatedBools: 1

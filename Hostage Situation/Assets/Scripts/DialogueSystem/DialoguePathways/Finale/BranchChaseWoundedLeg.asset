@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01a7724b7db3e04db6c75afa08feb2a, type: 3}
+  m_Name: BranchChaseWoundedLeg
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Deciding to gamble it all on this final moment, you charge straight for Blanc
+    with fury dancing in your eyes. Blanc aims their pistol straight at you and fires.
+  - 'Unfortunately, in your rage you forgot your wounded state, and as you attempt
+    to dodge the bullet you find yourself collapsing from applying too much pressure
+    to your injured leg. '
+  - Your whole body lurches, and the bullet embeds itself deep in your stomach, causing
+    you to drop and your body to hit the ground.
+  - 'Everything goes dark, and by the time you come to you''re awake in a hospital,
+    being tended to by doctors. '
+  - Luckily, your wounds will heal, but it takes you time to build up the courage
+    to face the public after your run-in with Blanc.
+  - 'He never did upload the interview. Or if he did it never picked up enough traction
+    for you to notice. '
+  - 'But you still find yourself waiting for when he''ll reappear, and when you close
+    your eyes, you can still see yourself back in the theatre, staring down the barrel
+    of a gun. '
+  - You survived, and that fact alone was at least enough to ease some of your comfort.
+  - 
+  - 'ENDING (2/8): INTERVIEW STATIC.'
+  speaker:
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  - {fileID: 11400000, guid: b0d06e2dc407e6649b6f455d86cb7ff6, type: 2}
+  poses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 39b3abd376c6db94090174df02d23123, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  choice: {fileID: 0}
+  startFight: 0
+  startInterview: 0
+  resetAtEnd: 0
+  transitionToInterview: 1
+  lineIndex: 0
+  increaseFailure: 0
+  enableGunPath: 0
+  shootLeg: 0
+  enableDeathScreen: 1
+  updatedBools: 0

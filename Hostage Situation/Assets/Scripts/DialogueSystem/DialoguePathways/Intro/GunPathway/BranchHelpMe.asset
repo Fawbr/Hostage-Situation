@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BranchHelpMe
   m_EditorClassIdentifier: 
   dialogue:
-  - You get midway through your sentence before you find hte words choking in your
+  - You get midway through your sentence before you find the words choking in your
     throat. It its place follows a horrified, muffled gasp as the glint of metal
     gets caught by the spotlight beaming down on the two of you.
   - You taste it before your eyes even manage to settle on it.
@@ -34,11 +34,30 @@ MonoBehaviour:
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
   - {fileID: 11400000, guid: db2d8e6dbd2621d408e02ef84ab96876, type: 2}
+  poses:
+  - {fileID: 7805219610544614147, guid: 33b0a39bd41e4904194b71fd8807637d, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   choice: {fileID: 11400000, guid: 4b8e6b1ad9da30e4b92393b8e4f0a9c8, type: 2}
+  startFight: 0
+  startInterview: 0
   resetAtEnd: 0
   transitionToInterview: 0
   lineIndex: 0
   increaseFailure: 2
   enableGunPath: 0
   shootLeg: 0
+  enableDeathScreen: 0
   updatedBools: 1
